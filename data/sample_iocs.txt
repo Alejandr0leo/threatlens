@@ -1,0 +1,9 @@
+# IOCs de muestra para ThreatLens (mezcla de tipos y estados)
+8.8.8.8
+1.1.1.1
+192.168.1.10
+example.com
+44d88612fea8a8f36de82e1278abb02f
+hxxp://malicious-test[.]com/payload
+275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f
+not-a-valid-ioc!!!
