@@ -1,4 +1,4 @@
-# 🔍 ThreatLens — Enriquecimiento de IOCs y Threat Intelligence
+# ThreatLens — Enriquecimiento de IOCs y Threat Intelligence
 
 ThreatLens recibe indicadores de compromiso (**IPs, dominios y hashes**), los consulta
 contra varias fuentes de inteligencia de amenazas y entrega un **veredicto agregado**
@@ -8,7 +8,7 @@ por indicador, con reporte en terminal, Markdown/JSON y un dashboard visual.
 
 ---
 
-## ✨ ¿Qué hace?
+##  ¿Qué hace?
 
 - **Detecta y normaliza** el tipo de IOC automáticamente (IPv4, dominio, URL→host, hash MD5/SHA1/SHA256).
 - **"Refang"** de indicadores ofuscados: `1[.]2[.]3[.]4`, `hxxp://malo[.]com` → forma real.
@@ -35,7 +35,7 @@ VirusTotal y AbuseIPDB ofrecen *free tier*. Sin ninguna key, siguen activas `loc
 
 ---
 
-## 🚀 Uso rápido
+## Uso rápido
 
 ```bash
 # 1. Instalar dependencias
@@ -67,7 +67,7 @@ streamlit run dashboard.py
 
 ---
 
-## 🧱 Arquitectura
+## Arquitectura
 
 ```
 threatlens/
@@ -93,7 +93,7 @@ INFORMATIVO (no son amenazas de Internet).
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Soporte para enriquecimiento de URLs completas y direcciones de correo.
 - [ ] Exportación a STIX 2.1 / MISP.
@@ -102,7 +102,7 @@ INFORMATIVO (no son amenazas de Internet).
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Nikolay Alejandro León Duarte** — Estudiante de Ingeniería de Sistemas (ciberseguridad, CTI, Python)
 GitHub: [github.com/Alejandr0leo](https://github.com/Alejandr0leo)
